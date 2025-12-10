@@ -6,7 +6,7 @@ import os, sys
 sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), "..")))
 
 # internal imports
-from demo_engine.demo import place_demo_bet, ai_generate_ticket, cleanup_old_demo
+#from demo_engine.demo import place_demo_bet, ai_generate_ticket, cleanup_old_demo
 
 app = FastAPI(title="Analises Esportivas Pro - Backend (FINAL)")
 app.add_middleware(CORSMiddleware, allow_origins=["*"], allow_methods=["*"], allow_headers=["*"])
